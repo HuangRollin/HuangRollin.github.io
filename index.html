@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- title -->
+		<title>我的作品</title>
+		<!-- title LOGO -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- 引用JS -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="./js/public.js"></script>
+		<!-- 引用css -->
+		<link rel="stylesheet" type="text/css" href="./css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+	</head>
+	<body onload="sliding_rac()">
+		<!-- 响应式框架 -->
+		<div class="responsiv_div">
+			<!-- header 头部区域-->
+			<header class="responsiv_header">
+				<!-- logo区域-->
+				<div class="logo_div">
+					<img src="./img/index/3-logo.png" class="logo_img_left">
+					<img src="./img/index/3-logo.png" class="logo_img_right">
+				</div>
+				<!-- nav 导航区域 -->
+				<nav class="nav_menu">
+					<!-- 导航条 -->
+					<ul>
+						<li><a onclick="set_page_num(11)" href="index.html" class="turn_white">作品</a></li>
+						<li><a onclick="set_page_num(12)" href="blogs.html">博客</a></li>
+						<li><a onclick="set_page_num(13)" href="resume.html">简历</a></li>
+						<li><a onclick="set_page_num(14)" href="about.html">关于</a></li>
+					</ul>
+					<!-- 导航 滑动矩形 -->
+					<div id="sliding_rec" class="myclass">
+					</div>
+				</nav>
+			</header>
+			<!-- main -->
+			<div class="main_div">
+				<!-- 自我介绍区域 -->
+				<div class="self_introduce_div">
+					<!-- 大标题 -->
+					<div>
+						<h1>嗨! 我是黄若琳,</h1>
+						<h1>一名初级交互设计师</h1>
+					</div>
+					<!-- 小文字 -->
+					<div class="self_introduce_words">
+						<p>我是一个充满好奇的人，执着并坚守着自己的童真快乐。在我看来，人为地设计世界，终究是为了创造一种更好的生活状态。即使过程再艰难痛苦，也要一站到底。以下是我的交互项目展示，非常高兴与你分享！</p>
+						<p class="self_introduce_time">二零二二年壹月</p>
+					</div>
+				</div>
+				<!-- 作品展示区域 -->
+				<div class="index_gallery_div">
+					<!-- 网格布局 -->
+					<div class="index_gallery">
+						<!-- 作品1 -->
+						<div class="one item">
+							
+						</div>
+						<!-- 作品2 -->
+						<div class="two item">
+							
+						</div>
+						<!-- 作品3 -->
+						<div class="three item">
+							
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- 页脚 -->
+			<footer class="footer_div">
+				<h1>如果您对任何内容感兴趣,欢迎联系：</h1>
+					<h1 style="font-weight: normal;" onclick="copy_email()" id="my_email">huangrollin@163.com</h1>
+				<h1 style="font-weight: normal;">我正在寻找新的机会,非常期待与您交流！</h1>
+			</footer>
+		</div>
+	</body>
+</html>
