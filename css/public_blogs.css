@@ -1,0 +1,51 @@
+/* 返回 */
+.return_div{
+	width: 100%;
+	margin-top: 60px;
+}
+.return_img{
+	height: 40px;
+}
+/* 日期 */
+.blog_date_inner{
+	margin-top: 32px;
+}
+/* 博客正文 */
+.blog_text{
+	margin: auto;
+	margin-top: 40px;
+	width: 80%;
+}
+.blog_text img{
+	width: 100%;
+	margin: 24px auto;
+	background-color: #000000;	
+}
+.blog_text h3{
+	width: 80%;
+	margin:auto;
+	margin-top: 40px;
+	text-align: left;
+}
+.blog_text p{
+	width: 80%;
+	font-size: 16px;
+	font-family: "agency fb";
+	line-height: 32px;
+	margin: 32px auto;
+	text-align: left;
+}
+
+/* 跳转 */
+.blog_jumpTo{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	margin-top: 300px;
+}
+.blog_jumpTo_last{
+	float: left;
+}
+.blog_jumpTo_next{
+	float: right;
+}

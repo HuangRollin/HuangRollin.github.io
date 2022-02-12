@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- title -->
+		<title>我的博客</title>
+		<!-- title LOGO -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- 引用JS -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="./js/public.js"></script>
+		<!-- 引用css -->
+		<!-- 共用index.css -->
+		<link rel="stylesheet" type="text/css" href="./css/public.css"/>
+		<!-- 自己的css -->
+		<link rel="stylesheet" type="text/css" href="./css/blogs.css"/>
+	</head>
+	<body onload="sliding_rac()">
+		<!-- 响应式框架 -->
+		<div class="responsiv_div">
+			<!-- header 头部区域-->
+			<header class="responsiv_header">
+				<!-- logo区域-->
+				<div class="logo_div">
+					<img src="./img/index/3-logo.png" class="logo_img_left">
+					<img src="./img/index/3-logo.png" class="logo_img_right">
+				</div>
+				<!-- nav 导航区域 -->
+				<nav class="nav_menu">
+					<ul>
+						<li><a onclick="set_page_num(21)" href="index.html">作品</a></li>
+						<li><a onclick="set_page_num(22)" href="blogs.html" class="turn_white">博客</a></li>
+						<li><a onclick="set_page_num(23)" href="resume.html">简历</a></li>
+						<li><a onclick="set_page_num(24)" href="about.html">关于</a></li>
+					</ul>
+					<!-- 导航 滑动矩形 -->
+					<div id="sliding_rec" class="myclass">
+					</div>
+				</nav>
+			</header>
+			<!-- main -->
+			<div class="main_div">
+				<div class="title">
+					<h1>专注分享和记录</h1>
+				</div>
+				<div class="blogs_gallery_div">
+					<div class="blogs_gallery">
+						<!-- 博客1 -->
+						<div class="one blog">
+							<!-- 日期 -->
+							<div class="blog_date">
+								2022.02.07
+							</div>
+							<!-- 标题 -->
+							<div class="blog_title">
+								<a href="./blogs/my_blog_20220207.html">如何在GitHub上创建属于自己的主页</a>
+							</div>
+							<!-- 博客标签 -->
+							<div class="blog_tags">
+								<!-- 标签1 -->
+								<div class="tag_1">
+									前端
+								</div>
+								<!-- 标签2 -->
+								<div class="tag_2">
+									网站设计
+								</div>
+							</div>
+							<!-- 博客简介 -->
+							<div class="blogs_summary">
+								我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介
+							</div>
+							<!-- 博客信息 -->
+							<div class="blog_infomation">
+								<!-- 字数 -->
+								<div class="blog_words">
+									字数:1234
+								</div>
+								<!-- 时长 -->
+								<div class="blog_time">
+									阅读时长:5min
+								</div>
+							</div>
+						</div>
+						<!-- 博客2 -->
+						<div class="two blog">
+							<!-- 日期 -->
+							<div class="blog_date">
+								2022.02.07
+							</div>
+							<!-- 标题 -->
+							<div class="blog_title">
+								<a>JavaScript入门(一)</a>
+							</div>
+							<!-- 博客标签 -->
+							<div class="blog_tags">
+								<!-- 标签1 -->
+								<div class="tag_1">
+									前端
+								</div>
+								<!-- 标签2 -->
+								<div class="tag_3">
+									什么鬼
+								</div>
+							</div>
+							<!-- 博客简介 -->
+							<div class="blogs_summary">
+								我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是
+							</div>
+							<!-- 博客信息 -->
+							<div class="blog_infomation">
+								<!-- 字数 -->
+								<div class="blog_words">
+									字数:1234
+								</div>
+								<!-- 时长 -->
+								<div class="blog_time">
+									阅读时长:5min
+								</div>
+							</div>
+						</div>
+						
+						<!-- 博客3 -->
+						<div class="three blog">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 页脚 -->
+			<footer class="footer_div">
+				<h1>如果您对任何内容感兴趣,欢迎联系：</h1>
+					<h1 onclick="copy_email()" id="my_email">huangrollin@163.com</h1>
+				<h1>我正在寻找新的机会,非常期待与您交流！</h1>
+			</footer>
+		</div>
+	</body>
+</html>

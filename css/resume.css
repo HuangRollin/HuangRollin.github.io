@@ -1,0 +1,15 @@
+/* 内容区域 */
+.main_div{
+	float: left;
+	width: 100%;
+	margin: 100px auto;
+	text-align: center;
+	}
+	
+/* 简历区域 */
+.my_resume{
+	height: 1500px;
+	width: 100%;
+	background-color: #e6e6e6;
+	margin: 50px auto;
+}

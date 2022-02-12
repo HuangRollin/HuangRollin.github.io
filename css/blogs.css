@@ -1,0 +1,106 @@
+/* 博客展示区 */
+.blogs_gallery_div{
+	width: 70%;
+	height: 1200px;
+	margin: 150px auto;
+}
+.blogs_gallery{
+	display: grid;
+	grid-template-columns: repeat(1, 100%);
+	grid-gap: 10%;
+	grid-template-rows: repeat(13,50px);
+}
+.blogs_summary{
+	width: 100%;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.one{
+	grid-row:1/5;
+}
+.two{
+	grid-row:5/9;
+}
+.three{
+	grid-row:9/13;
+}
+
+/* 博客内部样式 */
+/* 日期 */
+.blog_date{
+	margin: 5px auto;
+	color: #CCCCCC;
+}
+/* 博客标题blog_title */
+.blog_title{
+	height: 50px;
+}
+.blog_title a{
+	font-size: 32px;
+}
+.blog_title a:hover{
+	text-decoration:none;
+	border-bottom: #000000 4px solid;
+}
+/* 博客信息 */
+.blog_infomation{
+	margin: 0 auto;
+	display: inline-flex;
+	color: #CCCCCC;
+}
+.blog_words{
+	margin: 3px 10px;
+}
+.blog_time{
+	margin: 3px 10px;
+}
+/* 博客标签 */
+.blog_tags{
+	margin: 20px 10px ;
+}
+/* 标签1 */
+.tag_1{
+	width: 60px;
+	display: inline-block;
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 10px;
+	}
+/* 标签2 */
+.tag_2{
+	width: 80px;
+	display: inline-block;
+	/* background-color: skyblue; */
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 10px;
+	}
+/* 标签3 */
+.tag_3{
+	width: 60px;
+	display: inline-block;
+	/* background-color: pink; */
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 10px;
+	}
+/* 悬浮 */
+/* .tag_1:hover{
+	transform: scale(1.1);
+}
+.tag_2:hover{
+	transform: scale(1.1);
+}
+.tag_3:hover{
+	transform: scale(1.1);
+} */
+/* 博客简介 */
+.blogs_summary{
+	margin: 10px 0;
+	color: #CCCCCC;
+	line-height: 28px;
+}
